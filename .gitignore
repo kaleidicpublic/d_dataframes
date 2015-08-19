@@ -5,3 +5,6 @@ __dummy.html
 *.obj
 build/*
 data/*
+./dataframe
+./d_dataframes
+./gitignore
