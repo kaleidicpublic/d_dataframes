@@ -1,6 +1,6 @@
 name "d_dataframes"
-description "DataFrame - Typed and Untyped"
-copyright "Copyright © 2014,2015, Laeeth Isharc"
+description "Beginnings of a DataFrame with HDF5 and CSV support - Typed and Untyped"
+copyright "Copyright © 2014,2015, Laeeth Isharc, HDF5 Guys"
 authors "Laeeth Isharc"
 targetType "executable"
 buildType "release"
