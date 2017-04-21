@@ -1,4 +1,5 @@
 module dataframe.variant;
+import std.file;
 import dataframe.common;
 import dataframe.csv;
 import std.conv;

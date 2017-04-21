@@ -9,7 +9,8 @@ import std.stdio;
 import std.variant;
 import std.string:isNumeric;
 import std.typecons:tuple,Tuple;
-
+import std.traits;
+import std.file;
 
 DataFrameTyped typedFrameFromCSV(string filename, string[] titles)
 {

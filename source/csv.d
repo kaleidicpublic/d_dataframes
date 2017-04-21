@@ -11,7 +11,8 @@ import std.stdio;
 import std.variant;
 import std.string:isNumeric;
 import std.typecons:tuple,Tuple;
-
+import std.traits;
+import std.file;
 
 private size_t peekCols(string data, char separator=',')
 {
@@ -90,7 +91,6 @@ DataFrame saveCSV(DataFrame frame, string filename, bool useHeader=true)
 DataFrameTyped loadCSV(Malformed errorLevel=Malformed.ignore)(string data, string[] columnTitles=[], bool skipFirst=false,char separator=',')
 {
 	import std.string:strip;
-	import std.math:nan;
 	import std.range:enumerate;
 	DataFrameTyped ret;
 
